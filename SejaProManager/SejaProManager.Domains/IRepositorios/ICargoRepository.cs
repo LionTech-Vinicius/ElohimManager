@@ -1,0 +1,9 @@
+﻿using SejaProManager.Domains.Base;
+using SejaProManager.Domains.Entidades;
+
+namespace SejaProManager.Domains.IRepositorios
+{
+    public interface ICargoRepository : IBaseRepository<Cargo>
+    {
+    }
+}

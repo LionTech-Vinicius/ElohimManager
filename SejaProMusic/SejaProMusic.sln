@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{458040FA-6595-4D8C-B141-1BD73A872DF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorio", "Repositorio", "{EB59CFA1-D41E-4B35-AD46-F9E1A89DA239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SejaProMusic.Domain", "SejaProMusic.Domain\SejaProMusic.Domain.csproj", "{91964FBA-FD7B-47C4-A2A8-E86871E60CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SejaProMusic.Repository", "SejaProMusic.Repository\SejaProMusic.Repository.csproj", "{B1B8F1A6-9F57-48A1-B618-0DEDA727D33A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serviço", "Serviço", "{A0B032A6-ACBA-48FA-98DC-EF4CC54627F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SejaProMusic.Services", "SejaProMusic.Services\SejaProMusic.Services.csproj", "{762792E1-AAD1-4E2B-BDFA-4C006DD751E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91964FBA-FD7B-47C4-A2A8-E86871E60CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91964FBA-FD7B-47C4-A2A8-E86871E60CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91964FBA-FD7B-47C4-A2A8-E86871E60CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91964FBA-FD7B-47C4-A2A8-E86871E60CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B8F1A6-9F57-48A1-B618-0DEDA727D33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B8F1A6-9F57-48A1-B618-0DEDA727D33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B8F1A6-9F57-48A1-B618-0DEDA727D33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B8F1A6-9F57-48A1-B618-0DEDA727D33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762792E1-AAD1-4E2B-BDFA-4C006DD751E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762792E1-AAD1-4E2B-BDFA-4C006DD751E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762792E1-AAD1-4E2B-BDFA-4C006DD751E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762792E1-AAD1-4E2B-BDFA-4C006DD751E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91964FBA-FD7B-47C4-A2A8-E86871E60CC0} = {458040FA-6595-4D8C-B141-1BD73A872DF6}
+		{B1B8F1A6-9F57-48A1-B618-0DEDA727D33A} = {EB59CFA1-D41E-4B35-AD46-F9E1A89DA239}
+		{762792E1-AAD1-4E2B-BDFA-4C006DD751E7} = {A0B032A6-ACBA-48FA-98DC-EF4CC54627F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0DCDD7F-3A39-4C1B-8843-4A0AFC51E3DE}
+	EndGlobalSection
+EndGlobal

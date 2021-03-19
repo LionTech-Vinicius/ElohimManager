@@ -1,0 +1,102 @@
+.App {
+  text-align: justify;
+  padding-top: 65px;
+  padding-bottom: 60px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-footer {
+  align-items: center important;
+  justify-content: center;
+}
+
+.frame-1 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.frame-2 {
+  position: absolute;
+  top: 100px;
+  left: 260px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.textBox {
+  height: 350px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.textBoxMedia {
+  height: 500px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.imgHome {
+  padding: 10px;
+  border-radius: 100px;
+  border: 10;
+  color: aliceblue;
+}
+
+.icone {
+  float: left;
+  border-radius: 50px;
+  height: 70px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.iconeMedia {
+  float: left;
+  border-radius: 30px;
+  height: 140px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.textFooter {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  color: darkorange;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 55px;
+  text-align: right;
+}
